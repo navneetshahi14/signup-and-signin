@@ -14,7 +14,8 @@ In.onclick = function(){
     In.classList.remove("disable")
     up.classList.remove("color")
     // sub.classList.remove("move")
-    forget.classList.add("hidden")
+    forget.classList.remove("hidden")
+    forget.classList.add("text")   
     sub.classList.add("moveup")
 }
 up.onclick = function(){
@@ -26,6 +27,6 @@ up.onclick = function(){
     In.classList.remove("color")
     title.classList.add("trans")
     // sub.classList.add("move")
-    forget.classList.remove("hidden")
+    forget.classList.add("hidden")
     sub.classList.remove("moveup")
 }
