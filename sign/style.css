@@ -1,0 +1,144 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container{
+    background-image: linear-gradient(rgba(250, 5, 5, 0.7),rgba(247, 116, 2, 0.7),rgba(247, 227, 2, 0.7)), url(/img/F1\ car.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box{
+    background-color: white;
+    display: inline-flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 450px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+.form-box>h1{
+    color: orangered;
+    font-family:  cursive;
+    position: absolute;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* transition: 1s; */
+}
+.form-box>h1::after{
+    content: "";
+    height: 8px;
+    width: 50px;
+    background-color: orangered;
+    border: none;
+    border-radius: 16px;
+    margin-top: 10px;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-group{
+    width: 100%;
+    height: 380px;
+    position: relative;
+    top: 23px;
+    right: -23px; 
+    transform: translate(-50% -50%);
+}
+.input-field{
+    margin: 30px 0px;
+    /* background-color: black; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.24);
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+.input-field>i{
+    padding: 0px 23px;
+    margin-left: 23px ;
+}
+.input-field>input{
+    display: flex;
+    width: 100%;
+    border: none;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 23px;
+    height: 30px;
+    text-align: center;
+    background: transparent;
+    outline: 0;
+}
+.but{
+    padding: 23px 0px;
+    position: absolute;
+    bottom: 9vh;
+    left:39vw;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 10vw;
+    height: 8vh;
+    border-radius: 32px;
+    border: none;
+    font-size: 18px;
+    font-family:  cursive;  
+    cursor: pointer;
+    outline: 0; 
+    transition: background 1s;
+    
+}
+.color{
+    background: orange;
+}
+.but>.disable{
+    background: #eaeaea;
+    color: #555;
+}
+.p{
+    position: absolute; 
+    bottom: 34vh;
+    font-size: 15px;
+    left: 480px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.trans{
+    /* transform: translateX(32px); */
+    transition: 0.4s;
+}
+.move{
+    position: absolute;
+    bottom: 24vh;
+}
+.hidden{
+    display: none;
+}
+.moveup{
+    position: absolute;
+    bottom: 28vh;
+}
