@@ -6,7 +6,7 @@
     box-sizing:border-box;
 }
 .container{
-    background-image: linear-gradient(rgba(250, 5, 5, 0.7),rgba(247, 116, 2, 0.7),rgba(247, 227, 2, 0.7)), url(/img/F1\ car.png);
+    background-image: linear-gradient(rgba(250, 5, 5, 0.5),rgba(247, 116, 2, 0.5),rgba(247, 227, 2, 0.5)), url("/signup-and-signin/sign/img/F1\ car.png");
     background-size: cover;
     background-position: center;
     height: 100vh;
